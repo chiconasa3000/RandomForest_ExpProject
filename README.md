@@ -4,9 +4,11 @@
 Projet using Random Forest concepts
 
 - Income Prediction Form
+
 ![income_pred_form](images/income_pred_form.png)
 
 - Income Prediction Result 
+
 ![income_pred_res](images/income_pred_res.png)
 
 
@@ -54,6 +56,5 @@ This is using:
 - Example of deployment by geeksforgeeks[https://www.geeksforgeeks.org/deploy-machine-learning-model-using-flask/]
 
 you could see the project here:
-https://flask-production-85fc.up.railway.app/
-
+https://web-production-91f2.up.railway.app/
 
