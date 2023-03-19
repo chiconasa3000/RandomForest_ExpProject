@@ -1,0 +1,82 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', "Arial", "Helvetica, sans-serif";
+}
+
+
+#main_container{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:flex-start;
+  margin: 20px 10px;
+}
+
+.container_form{
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding: 20px;
+  width:300px;
+}
+
+#title_cont{
+  border-radius:5px;
+  margin:20px;
+  padding:30px;
+  font-size: 2rem;
+  color:white;
+  text-align:center;
+  background-color: #113f67;
+}
+.title{
+  margin:0;
+}
+
+.reg_cont_gen{
+  display:flex;
+  flex-direction: column;
+}
+
+.register_cont{
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.inp_form{
+  width:120px;
+  text-align: right;
+  padding: 2px 2px;
+}
+
+.sel_form{
+  width:128px;
+  padding: 2px 2px;
+}
+
+.inp_submit{
+  cursor:pointer;
+  color:black;
+  margin:auto;
+  margin: 18px auto;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  font-size:1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+}
+.inp_submit:hover{
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #e7eaf6;
+}
